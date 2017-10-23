@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.luuuz.dateselectdemo.MainActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/tv_show_date"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="显示时间"/>
+    <Button
+        android:id="@+id/btn_date_select"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="日期选择器"
+        android:layout_centerInParent="true" />
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
